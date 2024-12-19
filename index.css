@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .book-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-card:hover {
+    background: #f0f0f0;
+  }
+  
+  #book-detail {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  #add-book-section {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  #add-book-form input, #add-book-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  

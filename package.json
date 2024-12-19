@@ -1,0 +1,13 @@
+{
+  "name": "book-store-app",
+  "version": "1.0.0",
+  "description": "the app will help the users to find/search their favorites books ## Key Features  - View the books - Display details for a specific book -  Search for a book -  Like/review a book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

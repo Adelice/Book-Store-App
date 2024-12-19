@@ -1,0 +1,19 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "description": "A fantasy adventure of Bilbo Baggins.",
+        "likes": 10
+      },
+      {
+        "id": 2,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "description": "A classic romantic novel.",
+        "likes": 5
+      }
+    ]
+  }
+  

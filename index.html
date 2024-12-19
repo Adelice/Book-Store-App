@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Book App</title>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+  <header>
+    <h1>My Book Collection</h1>
+    <input type="text" id="search-input" placeholder="Search by author..."/>
+  </header>
+
+  <main>
+    <section id="book-list"></section>
+
+    <section id="book-detail" style="display:none;">
+      <button id="close-detail">Close</button>
+      <h2 id="detail-title"></h2>
+      <p><strong>Author:</strong> <span id="detail-author"></span></p>
+      <p id="detail-description"></p>
+      <p>
+        <strong>Likes:</strong> <span id="detail-likes"></span>
+        <button id="like-button">Like</button>
+      </p>
+    </section>
+
+    <section id="add-book-section">
+      <h3>Add a New Book</h3>
+      <form id="add-book-form">
+        <input type="text" name="title" placeholder="Title" required/>
+        <input type="text" name="author" placeholder="Author" required/>
+        <textarea name="description" placeholder="Description"></textarea>
+        <button type="submit">Add Book</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
